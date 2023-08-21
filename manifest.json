@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Keysearch Explorer",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting", "storage", "downloads"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "images/icon48.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
